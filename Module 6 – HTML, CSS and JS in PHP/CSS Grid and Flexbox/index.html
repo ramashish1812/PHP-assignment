@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid and Flexbox</title>
+</head>
+<style>
+    .containar-fluid{
+        align-items: center;
+    }
+    .row{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+    .col{
+        align-self: center;
+        margin: 10px;
+        padding: 10px;
+        height: 320px;
+        align-content: center;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        text-align: center;
+        padding: 5px;
+    }
+    @media screen and (max-width:1200px){
+        .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .col{
+            align-self: center;
+            margin: 10px;
+            padding: 10px;
+            height: 320px;
+            align-content: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            text-align: center;
+            padding: 5px;
+        }
+    }
+</style>
+<body>
+    <div class="containar-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi ad consequuntur. Vitae expedita dolore distinctio quo ducimus libero, laborum fugiat a voluptatibus explicabo, quasi eius amet excepturi eaque aliquam.</p>
+            </div>
+            <div class="col">
+                <img src="https://st4.depositphotos.com/40171568/40841/i/450/depositphotos_408412352-stock-photo-papar-sabah-malaysia-circa-november.jpg" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, non? Doloribus neque, dignissimos libero error nemo ipsum veniam, optio cum cumque sint quos pariatur dolores voluptate et, amet blanditiis repudiandae.</p>
+            </div>
+            <div class="col">
+                <img src="https://st5.depositphotos.com/10000872/67351/i/450/depositphotos_673514774-stock-photo-silhouettes-people-walking-ocean-floor.jpg" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam sapiente reprehenderit magnam ipsa animi tempore natus impedit fuga commodi, quas sequi quo eum aspernatur aut ea amet totam fugit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi ad consequuntur. Vitae expedita dolore distinctio quo ducimus libero, laborum fugiat a voluptatibus explicabo, quasi eius amet excepturi eaque aliquam.</p>
+            </div>
+            <div class="col">
+                <img src="https://st4.depositphotos.com/40171568/40841/i/450/depositphotos_408412352-stock-photo-papar-sabah-malaysia-circa-november.jpg" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, non? Doloribus neque, dignissimos libero error nemo ipsum veniam, optio cum cumque sint quos pariatur dolores voluptate et, amet blanditiis repudiandae.</p>
+            </div>
+            <div class="col">
+                <img src="https://st5.depositphotos.com/10000872/67351/i/450/depositphotos_673514774-stock-photo-silhouettes-people-walking-ocean-floor.jpg" alt="" width="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam sapiente reprehenderit magnam ipsa animi tempore natus impedit fuga commodi, quas sequi quo eum aspernatur aut ea amet totam fugit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #55c216;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(215, 208, 208);
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+   text-align: center;
+}

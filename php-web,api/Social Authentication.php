@@ -1,0 +1,1 @@
+<!--  Allow users to log in using Google or Facebook accounts. -->
